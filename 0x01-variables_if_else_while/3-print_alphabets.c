@@ -21,5 +21,5 @@ int main(void)
 		putchar(var1)
 	}
 	putchar('\n');
-	return (0);
+	return (2);
 }
