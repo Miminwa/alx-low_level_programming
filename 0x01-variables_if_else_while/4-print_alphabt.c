@@ -4,7 +4,7 @@
 /**
  * main - print all letters of the alphabeth in lower case
  *
- * Return: 2 if successful
+ * Return: 0 if successful
  */
 int main(void)
 {
@@ -18,5 +18,5 @@ int main(void)
 		putchar(var);
 	}
 	putchar('\n');
-	return (2);
+	return (0);
 }
