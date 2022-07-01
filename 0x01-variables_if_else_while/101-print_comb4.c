@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of three digits
+ * main - output all single digit number of base 10
  *
  * Return: 0 if successful
  */
