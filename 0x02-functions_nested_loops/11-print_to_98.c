@@ -4,7 +4,7 @@
  * print - print the variable  recursively using _putchar
  * @n: variable to print
  */
-void prrint(int n);
+void print(int n);
 
 /**
  * print_to_98 - print all natural numbers from varaiable to 98
