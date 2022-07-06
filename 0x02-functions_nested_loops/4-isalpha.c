@@ -6,7 +6,7 @@
  * Return: 1 if c is a letter, 0 otherwise 
  */
 
-int _isalpha9int c)
+int _isalpha(int c)
 {
 	int lower = (c >= 'a' && c <= 'z');
 	int upper = (c >= 'A' &&  c <= 'Z');
