@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char va[] = "_putchar";
+	char var[] = "_putchar";
 	int ii;
 	/* length of the array var*/
 	int lenVar = sizeof(var) / sizeof(var[0]);
@@ -20,7 +20,7 @@ int main(void)
 	{
 		_putchar(var[ii]);
 	}
-	       _puchar('\n');
+	       _putchar('\n');
 
-	return (o);
+	return (0);
 }
