@@ -10,22 +10,22 @@
  */
 int main(void)
 {
-	int i;
+	int ii = 1;
 
-	for (i = 1; i <= 100; i++)
-	{
-		if (i % 3 == 0 && i % 5 == 0)
+	do {
+		if ((ii % 3 == 0) && (ii % 5 == 0))
 			printf("FizzBuzz");
-		else if (i % 3 == 0)
+		else if (ii % 3 == 0)
 			printf("Fizz");
-		else if (1 % 5 == 0)
+		else if (ii % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%d", i);
-
-		if (i < 100)
+			printf("%d", ii);
+		if (ii != stopVar)
 			printf(" ");
-	}
+		ii++;
+	} while (ii < stopVar + 1);
 	printf("\n");
+
 	return (0);
 }
