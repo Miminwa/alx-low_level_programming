@@ -1,6 +1,5 @@
-#include "main.h"
 #include <stdio.h>
-
+#define stopVar 100
 /**
  * main - print 1 to 100
  * multiples of 3 with fizz,
