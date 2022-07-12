@@ -5,9 +5,6 @@
  * print_array - prints the items in an array
  * @arr: array to be printed
  * @n: number of element to print
- *
- * Created by: Jonah Jockthan
- * cc: 12th, july 2022.
  */
 
 void print_array(int *arr, int n)
