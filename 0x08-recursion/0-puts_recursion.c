@@ -2,10 +2,8 @@
 
 /**
  * _puts_recursion - a function that prints a string
- * @s: string
- * Return: always 0
+ * @s: the string
  */
-
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
